@@ -12,6 +12,7 @@
 		B2F0B54020C6572E00853E18 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2F0B53E20C6572E00853E18 /* Main.storyboard */; };
 		B2F0B54220C6572F00853E18 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2F0B54120C6572F00853E18 /* Assets.xcassets */; };
 		B2F0B54520C6572F00853E18 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2F0B54320C6572F00853E18 /* LaunchScreen.storyboard */; };
+		B2F0B55020C6628C00853E18 /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F0B54F20C6628C00853E18 /* ImageViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,10 @@
 		B2F0B54120C6572F00853E18 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B2F0B54420C6572F00853E18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B2F0B54620C6572F00853E18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B2F0B54C20C65A6D00853E18 /* オーキド2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "オーキド2.png"; sourceTree = "<group>"; };
+		B2F0B54D20C65A6D00853E18 /* オーキド.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "オーキド.jpg"; sourceTree = "<group>"; };
+		B2F0B54E20C65A6D00853E18 /* イーブイ.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "イーブイ.png"; sourceTree = "<group>"; };
+		B2F0B54F20C6628C00853E18 /* ImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +62,10 @@
 				B2F0B53A20C6572E00853E18 /* AppDelegate.swift */,
 				B2F0B53C20C6572E00853E18 /* ViewController.swift */,
 				B2F0B53E20C6572E00853E18 /* Main.storyboard */,
+				B2F0B54F20C6628C00853E18 /* ImageViewController.swift */,
+				B2F0B54E20C65A6D00853E18 /* イーブイ.png */,
+				B2F0B54D20C65A6D00853E18 /* オーキド.jpg */,
+				B2F0B54C20C65A6D00853E18 /* オーキド2.png */,
 				B2F0B54120C6572F00853E18 /* Assets.xcassets */,
 				B2F0B54320C6572F00853E18 /* LaunchScreen.storyboard */,
 				B2F0B54620C6572F00853E18 /* Info.plist */,
@@ -136,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B2F0B53D20C6572E00853E18 /* ViewController.swift in Sources */,
+				B2F0B55020C6628C00853E18 /* ImageViewController.swift in Sources */,
 				B2F0B53B20C6572E00853E18 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
